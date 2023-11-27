@@ -36,6 +36,10 @@ function App() {
         <Route path='/about' element={<About />} />
         <Route path='/contact' element={<Contact />} />
       </Routes>
+
+      <footer className='bg-body-tertiary'>
+        <p className='p-3 m-0 text-center'>copyright &copy; made by Ionut Cora, 2021-2023</p>
+      </footer>
     </div>
   );
 }
