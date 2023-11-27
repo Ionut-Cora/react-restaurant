@@ -3,6 +3,7 @@ import './Home.css';
 import { Link } from 'react-router-dom';
 import AboutSectionImg from '../../utils/images/about-section-img.jpg';
 import MenuBtn from '../../components/MenuBtn/MenuBtn';
+import ImageGallery from '../../components/ImageGallery/ImageGallery';
 
 const food = [
     {
@@ -107,6 +108,8 @@ function Home() {
                 <MenuBtn />
             </div>
         </div>
+
+        <ImageGallery />
     </div>
   )
 }
