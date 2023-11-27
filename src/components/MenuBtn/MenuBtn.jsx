@@ -1,0 +1,12 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+
+function MenuBtn() {
+  return (
+    <Link to='/menu'>
+        <button type='button' className='btn btn-success btn-lg text-capitalize mx-2'>Our full menu</button>
+    </Link>
+  )
+}
+
+export default MenuBtn;
