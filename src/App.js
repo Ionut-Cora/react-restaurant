@@ -7,6 +7,7 @@ import Home from './pages/Home/Home';
 import Menu from './pages/Menu/Menu';
 import About from './pages/About/About';
 import Contact from './pages/Contact/Contact';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -37,9 +38,7 @@ function App() {
         <Route path='/contact' element={<Contact />} />
       </Routes>
 
-      <footer className='bg-body-tertiary'>
-        <p className='p-3 m-0 text-center'>copyright &copy; made by Ionut Cora, 2021-2023</p>
-      </footer>
+      <Footer />
     </div>
   );
 }
