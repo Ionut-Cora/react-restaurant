@@ -1,3 +1,13 @@
 .home-page header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../../utils/images/home-header-img.jpg);
 }
+
+.home-page .about-section-img {
+    width: 75%;
+}
+
+@media only screen and (max-width: 992px) {
+    .home-page .about-section-img {
+        width: 50%;
+    }
+  }
