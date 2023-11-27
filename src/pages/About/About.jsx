@@ -3,7 +3,7 @@ import './About.css';
 
 function About() {
   return (
-    <div>About</div>
+    <div className='mt-5'>About</div>
   )
 }
 
