@@ -3,6 +3,7 @@ import './About.css';
 import AboutChef1Img from '../../utils/images/about-chef1-img.jpg';
 import AboutChef2Img from '../../utils/images/about-chef2-img.jpg';
 import ImageGallery from '../../components/ImageGallery/ImageGallery';
+import Reviews from '../../components/Reviews/Reviews';
 
 function About() {
   return (
@@ -31,6 +32,10 @@ function About() {
 
       <div className="bg-dark text-light">
         <ImageGallery />
+      </div>
+
+      <div className="my-5">
+        <Reviews />
       </div>
     </div>
   )
