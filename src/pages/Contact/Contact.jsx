@@ -1,5 +1,7 @@
 import React from 'react';
 import './Contact.css';
+import ContactInfo from '../../components/ContactInfo/ContactInfo';
+import ContactForm from '../../components/ContactForm/ContactForm';
 
 function Contact() {
   return (
@@ -9,6 +11,17 @@ function Contact() {
           <h1 className='text-light'>Contact</h1>
         </div>
       </header>
+
+      <div className="container my-5">
+        <div className="row">
+          <div className="col-lg-6 d-flex align-items-center justify-content-center">
+            <ContactInfo />
+          </div>
+          <div className="col-lg-6 d-flex justify-content-center mt-5 mt-lg-0">
+            <ContactForm />
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
