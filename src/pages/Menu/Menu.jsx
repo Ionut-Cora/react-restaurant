@@ -1,6 +1,7 @@
 import React from 'react';
 import './Menu.css';
 import { Card, CardBody, CardText, CardTitle } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import BreakfastImg from '../../utils/images/breakfast-img.jpg';
 import LunchImg from '../../utils/images/lunch-img.jpg';
 import DinnerImg from '../../utils/images/dinner-img.jpg';
@@ -272,6 +273,12 @@ function Menu() {
             </div>
           </div>
         </div>
+      </div>
+
+      <div className="container my-5 d-flex justify-content-center">
+        <Link to='/contact'>
+          <button type='button' className='btn btn-success btn-lg text-capitalize mx-2 shadow'>Reserve a table</button>
+        </Link>
       </div>
     </div>
   )
