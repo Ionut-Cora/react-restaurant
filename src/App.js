@@ -29,10 +29,10 @@ function App() {
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
           <Navbar.Collapse id='basiv-navbar-nav'>
             <Nav className='me-auto justify-content-end w-100'>
-              <Nav.Link href='/' className='active text-uppercase'>Home</Nav.Link>
-              <Nav.Link href='/menu' className='text-uppercase'>Menu</Nav.Link>
-              <Nav.Link href='/about' className='text-uppercase'>About</Nav.Link>
-              <Nav.Link href='/contact' className='text-uppercase'>Contact</Nav.Link>
+              <Link to='/' className='nav-link active text-uppercase'>Home</Link>
+              <Link to='/menu' className='nav-link text-uppercase'>Menu</Link>
+              <Link to='/about' className='nav-link text-uppercase'>About</Link>
+              <Link to='/contact' className='nav-link text-uppercase'>Contact</Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
