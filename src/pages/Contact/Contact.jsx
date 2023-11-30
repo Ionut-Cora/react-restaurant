@@ -2,6 +2,7 @@ import React from 'react';
 import './Contact.css';
 import ContactInfo from '../../components/ContactInfo/ContactInfo';
 import ContactForm from '../../components/ContactForm/ContactForm';
+import Reviews from '../../components/Reviews/Reviews';
 
 function Contact() {
   return (
@@ -21,6 +22,10 @@ function Contact() {
             <ContactForm />
           </div>
         </div>
+      </div>
+
+      <div className="bg-dark text-light py-5">
+        <Reviews />
       </div>
     </div>
   )
