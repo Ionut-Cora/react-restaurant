@@ -1,3 +1,19 @@
+# React JS Restaurant Website
+
+## View live website: https://ionut-cora.github.io/react-restaurant/
+
+<img src="React JS Restaurant Website Img.jpg" alt="React JS Restaurant Website Theme" />
+
+## For this website I used:
+- [React JS](https://react.dev/) - JavaScript library
+- [Bootstrap 5](https://getbootstrap.com/) - CSS Framework
+- [Unsplash](https://unsplash.com/) - Free Images
+- [Google Fonts](https://fonts.google.com/) - Poppins Family Fonts
+
+## Website description
+This restaurant website is a multipage custom demo website created with [React JS](https://react.dev/) and [Bootstrap 5](https://getbootstrap.com/).
+The website contain 4 pages: Home, Menu, About and Contact. Also contain 6 components: MenuBtn, ImageGallery, Reviews, ContactForm, ContactInfo and Footer.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
