@@ -1,3 +1,9 @@
 .about-section-img {
     width: 75%;
 }
+
+@media only screen and (max-width: 576px) {
+    .about-section-img {
+        width: 100%;
+    }
+}
