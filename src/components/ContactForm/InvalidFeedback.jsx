@@ -2,7 +2,7 @@ import React from 'react';
 
 function InvalidFeedback(props) {
   return (
-    <div class="invalid-feedback">
+    <div className="invalid-feedback">
         {props.message}
     </div>
   )

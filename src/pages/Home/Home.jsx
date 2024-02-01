@@ -6,6 +6,7 @@ import MenuBtn from '../../components/MenuBtn/MenuBtn';
 import ImageGallery from '../../components/ImageGallery/ImageGallery';
 import ContactInfo from '../../components/ContactInfo/ContactInfo';
 import ContactSectionImg from '../../utils/images/contact-section-img.jpg';
+import Header from '../../components/Header/Header';
 
 const food = [
     {
@@ -46,21 +47,7 @@ const drinks = [
 function Home() {
   return (
     <div className='home-page'>
-        <header className='h-100 min-vh-100 d-flex align-items-center text-light shadow'>
-            <div className="container d-flex justify-content-center">
-                <div className='d-flex flex-column align-items-center'>
-                    <h2 className='text-capitalize fw-bold text-center fs-1'>Welcome to</h2>
-                    <h1 className='text-capitalize fw-bold text-center'>React restaurant</h1>
-                    <p className='text-center mb-4'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae dolorum dignissimos fuga sed praesentium alias officiis at eum error est voluptatem dolorem a voluptate, recusandae possimus veritatis expedita quibusdam delectus sunt corrupti sapiente nam! Esse vero saepe vel incidunt quod tempora autem voluptas dignissimos, doloribus, reiciendis distinctio exercitationem, ratione voluptates.</p>
-                    <div>
-                        <MenuBtn />
-                        <Link to='/contact'>
-                            <button type='button' className='btn btn-outline-light btn-lg text-capitalize mx-2 shadow'>Contact us</button>
-                        </Link>
-                    </div>
-                </div>
-            </div>
-        </header>
+        <Header />
 
         {/* about us section */}
         <div className="container my-5">

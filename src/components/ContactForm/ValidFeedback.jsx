@@ -2,7 +2,7 @@ import React from 'react';
 
 function ValidFeedback() {
   return (
-    <div class="valid-feedback">
+    <div className="valid-feedback">
         Looks good!
     </div>
   )
