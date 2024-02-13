@@ -2,7 +2,7 @@
 
 ## View live website: https://ionut-cora.github.io/react-restaurant/
 
-<img src="React JS Restaurant Website Img.jpg" alt="React JS Restaurant Website Theme" />
+<img src="React JS Restaurant Template Website Bootstrap 5.jpg" alt="React JS Restaurant Template Website Bootstrap 5" />
 
 ## For this website I used:
 - [React JS](https://react.dev/) - JavaScript library
