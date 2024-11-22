@@ -1,43 +1,110 @@
-import React from 'react';
+import React, { useState } from 'react';
+import './ImageGallery.css';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/free-mode';
+import 'swiper/css/navigation';
+import 'swiper/css/thumbs';
+import { FreeMode, Navigation, Thumbs } from 'swiper/modules';
+
 import ImageGallery1 from '../../utils/images/gallery1.jpg';
 import ImageGallery2 from '../../utils/images/gallery2.jpg';
 import ImageGallery3 from '../../utils/images/gallery3.jpg';
 import ImageGallery4 from '../../utils/images/gallery4.jpg';
 import ImageGallery5 from '../../utils/images/gallery5.jpg';
 import ImageGallery6 from '../../utils/images/gallery6.jpg';
+import ImageGallery7 from '../../utils/images/gallery7.jpg';
+import ImageGallery8 from '../../utils/images/gallery8.jpg';
+import ImageGallery9 from '../../utils/images/gallery9.jpg';
+import ImageGallery10 from '../../utils/images/gallery10.jpg';
 
-function ImageGallery() {
+export default function ImageGallery() {
+  const [thumbsSwiper, setThumbsSwiper] = useState(null);
+
   return (
-    <div className='container py-5'>
-        <h2 className='text-center fs-1 mb-5 text-uppercase fw-bold'>Image gallery</h2>
-        <div className="row">
-            <div className="col-md-4 px-2">
-                <div className="my-3">
-                    <img src={ImageGallery1} className="img-fluid" alt="" />
-                </div>
-                <div className="my-2 my-md-3">
-                    <img src={ImageGallery2} className="img-fluid" alt="" />
-                </div>
-            </div>
-            <div className="col-md-4 px-2">
-                <div className="mt-2 mb-3 my-md-3">
-                    <img src={ImageGallery3} className="img-fluid" alt="" />
-                </div>
-                <div className="mb-2 mt-3 my-md-3">
-                    <img src={ImageGallery4} className="img-fluid" alt="" />
-                </div>
-            </div>
-            <div className="col-md-4 px-2">
-                <div className="my-2 my-md-3">
-                    <img src={ImageGallery5} className="img-fluid" alt="" />
-                </div>
-                <div className="my-3">
-                    <img src={ImageGallery6} className="img-fluid" alt="" />
-                </div>
-            </div>
-        </div>
-    </div>
-  )
+    <>
+      <Swiper
+        style={{
+          '--swiper-navigation-color': '#fff',
+          '--swiper-pagination-color': '#fff',
+        }}
+        spaceBetween={10}
+        navigation={true}
+        thumbs={{ swiper: thumbsSwiper }}
+        modules={[FreeMode, Navigation, Thumbs]}
+        className="mySwiper2 my-5"
+      >
+        <SwiperSlide>
+          <img src={ImageGallery1} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={ImageGallery2} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={ImageGallery3} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={ImageGallery4} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={ImageGallery5} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={ImageGallery6} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={ImageGallery7} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={ImageGallery8} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={ImageGallery9} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={ImageGallery10} />
+        </SwiperSlide>
+      </Swiper>
+      <Swiper
+        onSwiper={setThumbsSwiper}
+        spaceBetween={10}
+        slidesPerView={4}
+        freeMode={true}
+        watchSlidesProgress={true}
+        modules={[FreeMode, Navigation, Thumbs]}
+        className="mySwiper mb-5"
+      >
+        <SwiperSlide>
+          <img src={ImageGallery1} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={ImageGallery2} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={ImageGallery3} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={ImageGallery4} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={ImageGallery5} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={ImageGallery6} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={ImageGallery7} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={ImageGallery8} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={ImageGallery9} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={ImageGallery10} />
+        </SwiperSlide>
+      </Swiper>
+    </>
+  );
 }
-
-export default ImageGallery;
