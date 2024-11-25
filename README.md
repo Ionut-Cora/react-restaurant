@@ -4,11 +4,20 @@
 
 <img src="React JS Restaurant Template Website Bootstrap 5.jpg" alt="React JS Restaurant Template Website Bootstrap 5" />
 
-## For this website I used:
+## Dependencies
 - [React JS](https://react.dev/) - JavaScript library
 - [Bootstrap 5](https://getbootstrap.com/) - CSS Framework
+- [Font Awesome](https://fontawesome.com/) - Icon library
+- [Framer Motion](https://motion.dev/) - A modern animation library for React JS & JavaScript
 - [Unsplash](https://unsplash.com/) - Free Images
-- [Google Fonts](https://fonts.google.com/) - Poppins Family Fonts
+- [Pexels](https://www.pexels.com/) - FREE Stock Photos & Images
+- [Google Fonts](https://fonts.google.com/) - Montserrat, Lora & Hind Madurai Family Fonts
+
+## Installation
+- git clone repo
+- npm install
+- npm start
+- [http://localhost:3000](http://localhost:3000) - open in your browser to see the project
 
 ## Website description
 This restaurant website is a multipage custom demo website created with [React JS](https://react.dev/) and [Bootstrap 5](https://getbootstrap.com/).
