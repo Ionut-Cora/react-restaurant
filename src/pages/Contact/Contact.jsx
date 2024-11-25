@@ -11,8 +11,8 @@ function Contact() {
       <header className='height-50 mt-5'>
         <motion.div 
           className="container h-100 d-flex align-items-center justify-content-center"
-          initial={{ opacity: 0, x: -300 }}
-          whileInView={{ opacity: 1, x: 0 }}
+          initial={{ opacity: 0, y: -50 }}
+          whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
         >
           <h1 className='text-light'>Contact</h1>
