@@ -2,17 +2,17 @@ const drinks = [
     {
         id:1,
         name: 'organic juice',
-        price: '£2'
+        price: '2.00'
     },
     {
         id:2,
         name: 'coffee',
-        price: '£3'
+        price: '3.00'
     },
     {
         id:3,
         name: 'spirits',
-        price: '£5'
+        price: '5.00'
     }
 ];
 
