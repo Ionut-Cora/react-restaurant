@@ -48,8 +48,7 @@ function ContactForm() {
                 </div>
             `;
 
-            document.getElementById('contact-page').style.overflow = 'hidden';
-            document.getElementById('contact-page').style.height = '100vh';
+            document.getElementById('contact-page').classList.add('scrolling-stop');
             document.getElementById('footer').style.display = 'none';
         }
 
