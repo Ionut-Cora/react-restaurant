@@ -4,7 +4,7 @@ body, h1, a, code {
   font-family: 'Montserrat', sans-serif;
 }
 
-h2, h3 {
+h2, h3, .navbar-brand span {
   font-family: "Lora", serif;
 }
 
