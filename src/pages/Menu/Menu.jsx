@@ -8,117 +8,11 @@ import LunchImg from '../../utils/images/lunch-img.jpg';
 import DinnerImg from '../../utils/images/dinner-img.jpg';
 import DessertImg from '../../utils/images/dessert-img.jpg';
 import DrinksImg from '../../utils/images/drinks-img.jpg';
-
-const breakfast = [
-  {
-      id: 1,
-      name: 'English breakfast',
-      description: 'smoked bacon, sausage, tomato, mushrooms, black pudding, baked beans, eggs',
-      price: '£14'
-  },
-  {
-      id: 2,
-      name: 'Avocado toast',
-      description: 'poached egg, avocado, onion, tomatoes, bread',
-      price: '£8'
-  },
-  {
-      id: 3,
-      name: 'Burrito',
-      description: 'tortilla, egg, cheese, potatoes, pork meat',
-      price: '£11'
-  }
-];
-const lunch = [
-  {
-      id: 1,
-      name: 'Caesar salad',
-      description: 'chicken breast, romaine lettuce, croutons, parmesan',
-      price: '£15'
-  },
-  {
-      id: 2,
-      name: 'Spaghetti carbonara',
-      description: 'spaghetti, pancetta, garlic, eggs, parmesan, pepper',
-      price: '£11'
-  },
-  {
-      id: 3,
-      name: 'Pizza',
-      description: 'chorizo, italian salami, tomatoes, mushrooms, olives',
-      price: '£12'
-  }
-];
-
-const dinner = [
-  {
-      id: 1,
-      name: 'Spicy beef',
-      description: 'spicy beef, potatoes, carrots, cheese sauce, spices',
-      price: '£17'
-  },
-  {
-      id: 2,
-      name: 'Spaghetti bolognese',
-      description: 'onion, carrot, celery, minced meat, spaghetti, parmesan',
-      price: '£15'
-  },
-  {
-      id: 3,
-      name: 'Chickpea curry',
-      description: 'onion, chickpea, garlic, mushrooms, tomatoes, spices',
-      price: '£12'
-  }
-];
-
-const dessert = [
-  {
-      id: 1,
-      name: 'Lemon cake',
-      description: 'flour, sugar, baking powder, lemon',
-      price: '£9'
-  },
-  {
-      id: 2,
-      name: 'Cinnamon rolls',
-      description: 'flour, salt, sugar, cinnamon, yeast, sour cream, milk',
-      price: '£11'
-  },
-  {
-      id: 3,
-      name: 'Vegan pancakes',
-      description: 'flour, sugar, baking powder, soya milk, blueberries',
-      price: '£8'
-  }
-];
-
-const drinks = [
-  {
-      id: 1,
-      name: 'Organic juice',
-      price: '£2'
-  },
-  {
-      id: 2,
-      name: 'Coffee',
-      price: '£3'
-  },
-  {
-      id: 3,
-      name: 'Spirits',
-      price: '£5'
-  },
-  {
-    id: 4,
-    name: 'Tea',
-    price: '£2'
-  },
-  {
-    id: 5,
-    name: 'Water',
-    price: '£1'
-  }
-];
+import breakfast from '../../utils/breakfast';
+import lunch from '../../utils/lunch';
+import dinner from '../../utils/dinner';
+import dessert from '../../utils/dessert';
+import drink from '../../utils/drink';
 
 function Menu() {
   return (
@@ -138,10 +32,20 @@ function Menu() {
         <div className='container'>
           <h2 className='text-center fs-1 mb-4 mb-lg-5 text-uppercase fw-bold text-success'>Breakfast</h2>
           <div className='row flex-column-reverse flex-lg-row'>
-            <div className='col-lg-6 d-flex justify-content-center'>
+            <motion.div 
+              className='col-lg-6 d-flex justify-content-center'
+              initial={{ opacity: 0, x: -300 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 1 }}
+            >
               <img src={BreakfastImg} className='img-fluid w-75 mt-4 mt-lg-0' alt="" />
-            </div>
-            <div className='col-lg-6 d-flex flex-column justify-content-around'>
+            </motion.div>
+            <motion.div 
+              className='col-lg-6 d-flex flex-column justify-content-around'
+              initial={{ opacity: 0, x: 350 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 1 }}
+            >
               {breakfast.map((breakfast) => (
                 <div key={breakfast.id}>
                   <Card className='border-0'>
@@ -159,7 +63,7 @@ function Menu() {
                   </Card>
                 </div>
               ))}
-            </div>
+            </motion.div>
           </div>
         </div>
       </div>
@@ -168,7 +72,12 @@ function Menu() {
         <div className='container'>
           <h2 className='text-center fs-1 mb-4 mb-lg-5 text-uppercase fw-bold text-success'>Lunch</h2>
           <div className='row'>
-            <div className='col-lg-6 d-flex flex-column justify-content-around'>
+            <motion.div 
+              className='col-lg-6 d-flex flex-column justify-content-around'
+              initial={{ opacity: 0, x: -300 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 1 }}
+            >
               {lunch.map((lunch) => (
                 <div key={lunch.id}>
                   <Card className='border-0 bg-dark text-light'>
@@ -186,10 +95,15 @@ function Menu() {
                   </Card>
                 </div>
               ))}
-            </div>
-            <div className='col-lg-6 d-flex justify-content-center'>
+            </motion.div>
+            <motion.div 
+              className='col-lg-6 d-flex justify-content-center'
+              initial={{ opacity: 0, x: 350 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 1 }}
+            >
               <img src={LunchImg} className='img-fluid w-75 mt-4 mt-lg-0' alt="" />
-            </div>
+            </motion.div>
           </div>
         </div>
       </div>
@@ -198,10 +112,20 @@ function Menu() {
         <div className='container'>
           <h2 className='text-center fs-1 mb-4 mb-lg-5 text-uppercase fw-bold text-success'>Dinner</h2>
           <div className='row flex-column-reverse flex-lg-row'>
-            <div className='col-lg-6 d-flex justify-content-center'>
+            <motion.div 
+              className='col-lg-6 d-flex justify-content-center'
+              initial={{ opacity: 0, x: -300 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 1 }}
+            >
               <img src={DinnerImg} className='img-fluid w-75 mt-4 mt-lg-0' alt="" />
-            </div>
-            <div className='col-lg-6 d-flex flex-column justify-content-around'>
+            </motion.div>
+            <motion.div 
+              className='col-lg-6 d-flex flex-column justify-content-around'
+              initial={{ opacity: 0, x: 350 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 1 }}
+            >
               {dinner.map((dinner) => (
                 <div key={dinner.id}>
                   <Card className='border-0'>
@@ -219,7 +143,7 @@ function Menu() {
                   </Card>
                 </div>
               ))}
-            </div>
+            </motion.div>
           </div>
         </div>
       </div>
@@ -228,7 +152,12 @@ function Menu() {
         <div className='container'>
           <h2 className='text-center fs-1 mb-4 mb-lg-5 text-uppercase fw-bold text-success'>Dessert</h2>
           <div className='row'>
-            <div className='col-lg-6 d-flex flex-column justify-content-around'>
+            <motion.div 
+              className='col-lg-6 d-flex flex-column justify-content-around'
+              initial={{ opacity: 0, x: -300 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 1 }}
+            >
               {dessert.map((dessert) => (
                 <div key={dessert.id}>
                   <Card className='border-0 bg-dark text-light'>
@@ -246,10 +175,15 @@ function Menu() {
                   </Card>
                 </div>
               ))}
-            </div>
-            <div className='col-lg-6 d-flex justify-content-center'>
+            </motion.div>
+            <motion.div 
+              className='col-lg-6 d-flex justify-content-center'
+              initial={{ opacity: 0, x: 350 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 1 }}
+            >
               <img src={DessertImg} className='img-fluid w-75 mt-4 mt-lg-0' alt="" />
-            </div>
+            </motion.div>
           </div>
         </div>
       </div>
@@ -258,11 +192,21 @@ function Menu() {
         <div className='container'>
           <h2 className='text-center fs-1 mb-4 mb-lg-5 text-uppercase fw-bold text-success'>Drinks</h2>
           <div className='row flex-column-reverse flex-lg-row'>
-            <div className='col-lg-6 d-flex justify-content-center'>
+            <motion.div 
+              className='col-lg-6 d-flex justify-content-center'
+              initial={{ opacity: 0, x: -300 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 1 }}
+            >
               <img src={DrinksImg} className='img-fluid w-75 mt-4 mt-lg-0' alt="" />
-            </div>
-            <div className='col-lg-6 d-flex flex-column justify-content-around'>
-              {drinks.map((drink) => (
+            </motion.div>
+            <motion.div 
+              className='col-lg-6 d-flex flex-column justify-content-around'
+              initial={{ opacity: 0, x: 350 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 1 }}
+            >
+              {drink.map((drink) => (
                 <div key={drink.id}>
                   <Card className='border-0'>
                     <CardBody>
@@ -276,16 +220,21 @@ function Menu() {
                   </Card>
                 </div>
               ))}
-            </div>
+            </motion.div>
           </div>
         </div>
       </div>
 
-      <div className="container my-5 d-flex justify-content-center">
+      <motion.div 
+        className="container my-5 pt-5 d-flex justify-content-center"
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1 }}
+      >
         <Link to='/contact'>
           <button type='button' className='btn btn-success btn-lg text-capitalize mx-2 shadow'>Reserve a table</button>
         </Link>
-      </div>
+      </motion.div>
     </div>
   )
 }
