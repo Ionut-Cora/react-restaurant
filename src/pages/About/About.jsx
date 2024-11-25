@@ -25,12 +25,22 @@ function About() {
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quidem placeat inventore, illum commodi eum voluptas praesentium obcaecati at minima. Facere, praesentium velit amet iure quod sunt deserunt delectus laboriosam esse. Saepe excepturi at sed eius in aspernatur voluptatibus iure?</p>
 
         <div className="row">
-          <div className="col-lg-6">
+          <motion.div 
+            className="col-lg-6"
+            initial={{ opacity: 0, x: -300 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 1 }}
+          >
             <img src={AboutChef1Img} className='img-fluid my-4' alt="" />
-          </div>
-          <div className="col-lg-6">
+          </motion.div>
+          <motion.div 
+            className="col-lg-6"
+            initial={{ opacity: 0, x: 350 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 1 }}
+          >
             <img src={AboutChef2Img} className='img-fluid my-4' alt="" />
-          </div>
+          </motion.div>
         </div>
 
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis eos sapiente voluptate odit mollitia optio ducimus id consequatur molestiae deleniti qui repellat commodi consectetur a, voluptates autem adipisci! Aperiam incidunt in placeat et illo molestiae, porro vel, sapiente provident doloremque, similique harum blanditiis quibusdam qui!</p>
