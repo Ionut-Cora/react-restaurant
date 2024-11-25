@@ -30,7 +30,7 @@ function About() {
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis eos sapiente voluptate odit mollitia optio ducimus id consequatur molestiae deleniti qui repellat commodi consectetur a, voluptates autem adipisci! Aperiam incidunt in placeat et illo molestiae, porro vel, sapiente provident doloremque, similique harum blanditiis quibusdam qui!</p>
       </div>
 
-      <div className="bg-dark text-light">
+      <div className="bg-dark text-light py-1">
         <ImageGallery />
       </div>
 

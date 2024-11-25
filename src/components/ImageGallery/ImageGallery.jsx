@@ -35,34 +35,34 @@ export default function ImageGallery() {
         className="mySwiper2 my-5"
       >
         <SwiperSlide>
-          <img src={ImageGallery1} />
+          <img className='border-0' src={ImageGallery1} alt='food' />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={ImageGallery2} />
+          <img className='border-0' src={ImageGallery2} alt='food' />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={ImageGallery3} />
+          <img className='border-0' src={ImageGallery3} alt='food' />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={ImageGallery4} />
+          <img className='border-0' src={ImageGallery4} alt='food' />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={ImageGallery5} />
+          <img className='border-0' src={ImageGallery5} alt='food' />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={ImageGallery6} />
+          <img className='border-0' src={ImageGallery6} alt='food' />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={ImageGallery7} />
+          <img className='border-0' src={ImageGallery7} alt='food' />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={ImageGallery8} />
+          <img className='border-0' src={ImageGallery8} alt='food' />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={ImageGallery9} />
+          <img className='border-0' src={ImageGallery9} alt='food' />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={ImageGallery10} />
+          <img className='border-0' src={ImageGallery10} alt='food' />
         </SwiperSlide>
       </Swiper>
       <Swiper
@@ -75,34 +75,34 @@ export default function ImageGallery() {
         className="mySwiper mb-5"
       >
         <SwiperSlide>
-          <img src={ImageGallery1} />
+          <img className='border-0' src={ImageGallery1} alt='food' />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={ImageGallery2} />
+          <img className='border-0' src={ImageGallery2} alt='food' />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={ImageGallery3} />
+          <img className='border-0' src={ImageGallery3} alt='food' />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={ImageGallery4} />
+          <img className='border-0' src={ImageGallery4} alt='food' />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={ImageGallery5} />
+          <img className='border-0' src={ImageGallery5} alt='food' />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={ImageGallery6} />
+          <img className='border-0' src={ImageGallery6} alt='food' />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={ImageGallery7} />
+          <img className='border-0' src={ImageGallery7} alt='food' />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={ImageGallery8} />
+          <img className='border-0' src={ImageGallery8} alt='food' />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={ImageGallery9} />
+          <img className='border-0' src={ImageGallery9} alt='food' />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={ImageGallery10} />
+          <img className='border-0' src={ImageGallery10} alt='food' />
         </SwiperSlide>
       </Swiper>
     </>
