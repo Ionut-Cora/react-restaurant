@@ -26,7 +26,7 @@ function AboutUsSection() {
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi nesciunt sed maxime, nemo nulla velit. Dolor, fuga fugit! Impedit dolores quisquam distinctio quas, nemo et.</p>
                 <p className='mb-4 mb-lg-5'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos similique sed saepe fugiat laudantium ipsam ea rem magni et eveniet aut, iusto officia, fugit nisi veniam consequuntur? Maxime minus blanditiis repudiandae repellat quam velit nisi?</p>
                 <Link to='/about'>
-                    <button type='button' className='btn btn-dark btn-lg text-capitalize shadow'>More about us</button>
+                    <button type='button' className='btn btn-dark btn-lg rounded-0 text-capitalize shadow'>More about us</button>
                 </Link>
             </motion.div>
         </div>

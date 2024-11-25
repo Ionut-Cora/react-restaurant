@@ -13,7 +13,7 @@ import Footer from './components/Footer/Footer';
 
 function App() {
   return (
-    <div>
+    <div id='app'>
       <Navbar expand='lg' className='fixed-top bg-body-tertiary shadow'>
         <Container>
           <Navbar.Brand>

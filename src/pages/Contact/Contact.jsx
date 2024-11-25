@@ -7,7 +7,7 @@ import Reviews from '../../components/Reviews/Reviews';
 
 function Contact() {
   return (
-    <div className='contact-page'>
+    <div className='contact-page' id='contact-page'>
       <header className='height-50 mt-5'>
         <motion.div 
           className="container h-100 d-flex align-items-center justify-content-center"

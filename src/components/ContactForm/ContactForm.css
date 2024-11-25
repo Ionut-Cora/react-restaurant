@@ -18,3 +18,8 @@
     border: 1px solid #ea868f;
     box-shadow: 0 0 0 0.25rem rgba(220,53,69,.25);
 }
+
+#modal {
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}

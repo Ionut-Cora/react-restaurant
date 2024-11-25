@@ -232,7 +232,7 @@ function Menu() {
         transition={{ duration: 1 }}
       >
         <Link to='/contact'>
-          <button type='button' className='btn btn-success btn-lg text-capitalize mx-2 shadow'>Book your table</button>
+          <button type='button' className='btn btn-success btn-lg rounded-0 text-capitalize mx-2 shadow'>Book your table</button>
         </Link>
       </motion.div>
     </div>

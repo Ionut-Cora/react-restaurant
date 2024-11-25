@@ -20,7 +20,7 @@ function Header() {
                 <div className='d-flex flex-column flex-sm-row'>
                     <MenuBtn />
                     <Link to='/contact'>
-                        <button type='button' className='btn btn-outline-light btn-lg text-capitalize mx-2 shadow'>Contact us</button>
+                        <button type='button' className='btn btn-outline-light btn-lg rounded-0 text-capitalize mx-2 shadow'>Contact us</button>
                     </Link>
                 </div>
             </motion.div>
