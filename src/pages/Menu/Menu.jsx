@@ -2,6 +2,7 @@ import React from 'react';
 import './Menu.css';
 import { Card, CardBody, CardText, CardTitle } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import { motion } from 'framer-motion';
 import BreakfastImg from '../../utils/images/breakfast-img.jpg';
 import LunchImg from '../../utils/images/lunch-img.jpg';
 import DinnerImg from '../../utils/images/dinner-img.jpg';
@@ -123,9 +124,14 @@ function Menu() {
   return (
     <div className='menu-page'>
       <header className='height-50 mt-5'>
-        <div className='container h-100 d-flex align-items-center justify-content-center'>
+        <motion.div 
+          className='container h-100 d-flex align-items-center justify-content-center'
+          initial={{ opacity: 0, x: -300 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 1 }}
+        >
           <h1 className='text-light'>Menu</h1>
-        </div>
+        </motion.div>
       </header>
 
       <div className='breakfast my-5'>

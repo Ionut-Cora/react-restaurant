@@ -5,6 +5,7 @@ import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import ValidFeedback from './ValidFeedback';
 import InvalidFeedback from './InvalidFeedback';
+import { motion } from 'framer-motion';
 
 function ContactForm() {
     const [firstName, setFirstName] = useState('');
@@ -42,7 +43,11 @@ function ContactForm() {
     }
 
   return (
-    <div>
+    <motion.div
+        initial={{ opacity: 0, x: 350 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        transition={{ duration: 1 }}
+    >
         <Form className="bg-dark text-light p-5 needs-validation" id="form" onSubmit={handleSubmit}>
             <Form.Group className="row mb-3">
                 <Col className="mb-3 mb-md-0 was-validated" md={6}>
@@ -100,7 +105,7 @@ function ContactForm() {
         </Form>
 
         <div id="results"></div>
-    </div>
+    </motion.div>
   )
 }
 

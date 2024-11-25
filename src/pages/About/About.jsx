@@ -1,5 +1,6 @@
 import React from 'react';
 import './About.css';
+import { motion } from 'framer-motion';
 import AboutChef1Img from '../../utils/images/about-chef1-img.jpg';
 import AboutChef2Img from '../../utils/images/about-chef2-img.jpg';
 import ImageGallery from '../../components/ImageGallery/ImageGallery';
@@ -9,9 +10,14 @@ function About() {
   return (
     <div className='about-page'>
       <header className='height-50 mt-5'>
-        <div className="container h-100 d-flex align-items-center justify-content-center">
+        <motion.div 
+          className="container h-100 d-flex align-items-center justify-content-center"
+          initial={{ opacity: 0, x: -300 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 1 }}
+        >
           <h1 className='text-light'>About</h1>
-        </div>
+        </motion.div>
       </header>
 
       <div className="container my-5">
