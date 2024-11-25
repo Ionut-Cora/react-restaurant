@@ -1,7 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-body, h1, h2, h3, p, a, code {
-  font-family: 'Poppins', sans-serif;
+body, h1, a, code {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2, h3 {
+  font-family: "Lora", serif;
+}
+
+p {
+  font-family: 'Hind Madurai', sans-serif;
 }
 
 body {
