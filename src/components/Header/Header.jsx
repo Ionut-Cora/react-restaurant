@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 function Header() {
   return (
     <header>
-        <Carousel className='carousel-fade'>
+        <Carousel className='carousel-fade mt-5 mt-sm-0'>
             <Carousel.Item className='carousel-item1 vh-100'>
                 <Carousel.Caption className='h-100'>
                     <div className="row h-100">
