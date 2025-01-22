@@ -14,7 +14,7 @@ function Header() {
                         <div className='col-xl-7 d-flex flex-column align-items-center align-items-md-start justify-content-center mt-5'>
                             <h2 className='fw-bold fs-3 text-center text-md-start'>Welcome to</h2>
                             <h1 className='text-capitalize fw-bold text-center text-md-start'>Korlake restaurant</h1>
-                            <p className='mb-4 text-center text-md-start'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae dolorum dignissimos fuga sed praesentium alias officiis at eum error est voluptatem dolorem a voluptate.</p>
+                            <p className='mb-4 text-center text-md-start'>Welcome to Korlake Restaurant in London, the perfect experience for special people. Our fancy restaurant will bring your special moments to another level.</p>
                             <div className='d-flex flex-column flex-sm-row'>
                                 <MenuBtn />
                                 <Link to='/contact'>
@@ -32,7 +32,7 @@ function Header() {
                         <div className='col-xl-7 d-flex flex-column align-items-center align-items-md-start justify-content-center mt-5'>
                             <h2 className='fw-bold fs-3 text-center text-md-start'>Welcome to</h2>
                             <h1 className='text-capitalize fw-bold text-center text-md-start'>Korlake restaurant</h1>
-                            <p className='mb-4 text-center text-md-start'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae dolorum dignissimos fuga sed praesentium alias officiis at eum error est voluptatem dolorem a voluptate.</p>
+                            <p className='mb-4 text-center text-md-start'>Welcome to Korlake Restaurant in London, the perfect experience for special people. Our fancy restaurant will bring your special moments to another level.</p>
                             <div className='d-flex flex-column flex-sm-row'>
                                 <MenuBtn />
                                 <Link to='/contact'>
@@ -50,7 +50,7 @@ function Header() {
                         <div className='col-xl-7 d-flex flex-column align-items-center align-items-md-start justify-content-center mt-5'>
                             <h2 className='fw-bold fs-3 text-center text-md-start'>Welcome to</h2>
                             <h1 className='text-capitalize fw-bold text-center text-md-start'>Korlake restaurant</h1>
-                            <p className='mb-4 text-center text-md-start'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae dolorum dignissimos fuga sed praesentium alias officiis at eum error est voluptatem dolorem a voluptate.</p>
+                            <p className='mb-4 text-center text-md-start'>Welcome to Korlake Restaurant in London, the perfect experience for special people. Our fancy restaurant will bring your special moments to another level.</p>
                             <div className='d-flex flex-column flex-sm-row'>
                                 <MenuBtn />
                                 <Link to='/contact'>
