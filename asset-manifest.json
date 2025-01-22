@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-restaurant/static/css/main.ab290012.css",
-    "main.js": "/react-restaurant/static/js/main.e1bd9c5b.js",
+    "main.js": "/react-restaurant/static/js/main.1e1bab90.js",
     "static/js/787.abd706d2.chunk.js": "/react-restaurant/static/js/787.abd706d2.chunk.js",
     "static/media/contact-page-header-img.jpg": "/react-restaurant/static/media/contact-page-header-img.3e48b87168e534d75f07.jpg",
     "static/media/gallery6.jpg": "/react-restaurant/static/media/gallery6.d6e04a88a287fd5d797e.jpg",
@@ -28,17 +28,16 @@
     "static/media/about-section-img.jpg": "/react-restaurant/static/media/about-section-img.7db2c50a9043fa9cbef0.jpg",
     "static/media/breakfast-img.jpg": "/react-restaurant/static/media/breakfast-img.d1ffa8dba3ed580b9c9f.jpg",
     "static/media/person4-img.jpg": "/react-restaurant/static/media/person4-img.66f03d9192af0f61306e.jpg",
-    "static/media/about-chef2-img.jpg": "/react-restaurant/static/media/about-chef2-img.56720fe6ea82366b1319.jpg",
     "static/media/about-chef1-img.jpg": "/react-restaurant/static/media/about-chef1-img.4b284b05837a7d1776b5.jpg",
     "static/media/contact-section-img.jpg": "/react-restaurant/static/media/contact-section-img.9d316230d35625015907.jpg",
     "static/media/person1-img.jpg": "/react-restaurant/static/media/person1-img.0ee4e9c3aadb113ba173.jpg",
     "index.html": "/react-restaurant/index.html",
     "main.ab290012.css.map": "/react-restaurant/static/css/main.ab290012.css.map",
-    "main.e1bd9c5b.js.map": "/react-restaurant/static/js/main.e1bd9c5b.js.map",
+    "main.1e1bab90.js.map": "/react-restaurant/static/js/main.1e1bab90.js.map",
     "787.abd706d2.chunk.js.map": "/react-restaurant/static/js/787.abd706d2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ab290012.css",
-    "static/js/main.e1bd9c5b.js"
+    "static/js/main.1e1bab90.js"
   ]
 }
