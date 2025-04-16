@@ -2,6 +2,8 @@ import React from 'react';
 import './Reviews.css';
 import { Card, CardBody, CardText, CardFooter, CardTitle } from 'react-bootstrap';
 import { motion } from 'framer-motion';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faQuoteLeftAlt, faQuoteRightAlt } from '@fortawesome/free-solid-svg-icons';
 import reviews from '../../utils/reviews';
 
 function Reviews() {
@@ -20,7 +22,9 @@ function Reviews() {
                     <Card className="h-100 shadow">
                         <CardBody>
                             <div className="p-4">
-                                <CardText>{review.description}</CardText>
+                                <CardText>
+                                    <FontAwesomeIcon icon={faQuoteLeftAlt} size='sm' style={{color: "#198754"}} /> {review.description} <FontAwesomeIcon icon={faQuoteRightAlt} size='sm' style={{color: "#198754"}} />
+                                </CardText>
                             </div>
                         </CardBody>
                         <CardFooter className="d-flex align-items-center">
