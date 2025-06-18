@@ -42,7 +42,7 @@ git clone https://github.com/Ionut-Cora/react-restaurant
 cd react-restaurant
 npm install
 npm start
-[http://localhost:3000](http://localhost:3000) - open in your browser to see the project
 ```
+[http://localhost:3000](http://localhost:3000) - open in your browser to see the project
 
 Created by [Ionut Cora](https://www.ionutcora.com/)
